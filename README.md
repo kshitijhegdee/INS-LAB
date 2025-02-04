@@ -9,7 +9,6 @@ Welcome to the **INS Lab** repository! This repository contains all the code and
   - [Caesar Cipher](#caesar-cipher)
   - [Monoalphabetic Cipher](#monoalphabetic-cipher)
   - [Playfair Cipher](#playfair-cipher)
-- [How to Use](#how-to-use)
 
 ## Overview
 
@@ -33,4 +32,3 @@ The **Playfair Cipher** is a digraph substitution cipher where pairs of letters 
 
 All of these cipher implementations can be found in the `cipher/` folder of this repository.
 
-## How to Use
