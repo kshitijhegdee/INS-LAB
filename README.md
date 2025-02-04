@@ -10,8 +10,6 @@ Welcome to the **INS Lab** repository! This repository contains all the code and
   - [Monoalphabetic Cipher](#monoalphabetic-cipher)
   - [Playfair Cipher](#playfair-cipher)
 - [How to Use](#how-to-use)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
