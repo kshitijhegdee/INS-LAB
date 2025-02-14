@@ -1,34 +1,56 @@
-# INS Lab: Introduction to Network Security
+# Cryptography Ciphers in Python
 
-Welcome to the **INS Lab** repository! This repository contains all the code and materials for the lab exercises related to the Introduction to Network Security course. In this lab, we explore various cryptographic algorithms and network security principles.
+This repository contains Python implementations of various classical cryptographic ciphers. These ciphers are fundamental in understanding how encryption techniques evolved over time. The following encryption algorithms are included:
 
-## Table of Contents
+## Implemented Ciphers
 
-- [Overview](#overview)
-- [Lab Exercises](#lab-exercises)
-  - [Caesar Cipher](#caesar-cipher)
-  - [Monoalphabetic Cipher](#monoalphabetic-cipher)
-  - [Playfair Cipher](#playfair-cipher)
+1. **Caesar Cipher** - A simple substitution cipher that shifts characters by a fixed number of positions in the alphabet.
+2. **Monoalphabetic Cipher** - A substitution cipher where each letter in the plaintext is replaced with a corresponding letter from a fixed shuffled alphabet.
+3. **Playfair Cipher** - A digraph substitution cipher that encrypts pairs of letters using a 5x5 matrix.
+4. **Hill Cipher** - A polygraphic substitution cipher based on matrix multiplication.
 
-## Overview
+## Prerequisites
 
-In this lab, we dive into some fundamental encryption techniques that have historically been used in cryptography. These techniques include classical ciphers, which provide a foundation for understanding modern cryptographic algorithms. Each cipher is implemented as a separate Python script.
+Ensure you have Python installed on your system. You can check by running:
 
-### Goals of the Lab:
-- Understand basic encryption and decryption methods.
-- Learn about the security weaknesses of classical ciphers.
-- Implement and test the ciphers in a networked environment.
+```sh
+python --version
+```
 
-## Lab Exercises
+If Python is not installed, download and install it from [python.org](https://www.python.org/downloads/).
 
-### Caesar Cipher
-The **Caesar Cipher** is one of the simplest encryption techniques where each letter in the plaintext is shifted by a fixed number. This script demonstrates the encryption and decryption of messages using the Caesar Cipher.
+## Running the Programs
 
-### Monoalphabetic Cipher
-The **Monoalphabetic Cipher** is a type of substitution cipher where each letter of the plaintext is replaced by a corresponding letter in the alphabet. The cipher used here is a fixed substitution cipher.
+Each cipher program is a standalone script. Follow these steps to run them:
 
-### Playfair Cipher
-The **Playfair Cipher** is a digraph substitution cipher where pairs of letters are encrypted. This method uses a 5x5 matrix of letters and follows specific rules to perform encryption and decryption.
+1. **Clone the repository**
 
-All of these cipher implementations can be found in the `cipher/` folder of this repository.
+   ```sh
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+   ```
+
+2. **Run a specific cipher**
+
+   ```sh
+   python caesar_cipher.py
+   ```
+
+   ```sh
+   python monoalphabetic_cipher.py
+   ```
+
+   ```sh
+   python playfair_cipher.py
+   ```
+
+   ```sh
+   python hill_cipher.py
+   ```
+
+3. **Follow the on-screen instructions** to encrypt or decrypt messages using the respective ciphers.
+
+## Contributions
+
+Feel free to contribute by submitting issues or pull requests to improve the ciphers or add new features.
 
